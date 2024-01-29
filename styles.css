@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background: linear-gradient(to top left, #000088, #0000ff);
+  }
+
+  .grid-item {
+    background: linear-gradient(to top left, #000088, #0000ff);
+    border: 4px solid rgba(0, 0, 0, 0.8);
+    padding: 22px;
+    font-size: 47px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    color: #ede024;
+    transition: all .8s;
+  }
+
+
+  .head {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  .card {
+    width: 160px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    /* gives a beveled look */
+    border-left: solid rgb(19, 19, 160) 10px;
+    border-right: solid rgb(11, 11, 91) 10px;
+    border-top: solid rgb(1, 61, 200) 10px;
+    border-bottom: solid rgb(20, 20, 89) 10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 120px;
+  }
+  
+/*modal*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+    padding: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background: linear-gradient(to top left, #000088, #0000ff);
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    padding: 60px;
+    box-shadow: 5px 10px 18px #000;
+    color: #fff;
+  }
+  
+  input[type=radio] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  span.psw {
+	float: right;
+	padding-top: 16px;
+  }
+ 
+  /*
+  .modal-content p {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+  } */
+
+  .fa-solid {
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 750px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .quiz-container {
+    margin-right: 200px;
+  }
+
+  h2 {
+    padding: 1rem;
+    margin-left: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align:  right;
+  }
+  
+  ul li {
+    font-size: 1.2rem;
+  }
+  
+  ul li label {
+    cursor: pointer;
+  }
+
+  #submit {
+    margin-left: 320px;
+    background-color: rgb(74, 74, 214);
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  /* Close button on hover */
+  
+  /* Add Zoom Animation */
+  .animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
